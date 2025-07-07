@@ -32,6 +32,15 @@
         },
       };
     </script>
+    <!-- power of script tag. onclick button -->
+    <script>
+      function welcome() {
+        alert("Welcome to my shop");
+        var name = prompt("Please write me your name");
+        alert("Hello " + name);
+        console.log("Your name is " + name);
+      }
+    </script>
   </head>
   <body class="font-manrope">
     <main class="max-w-screen-xl mx-auto px-16 lg:px-28">
@@ -51,6 +60,7 @@
           </p>
           <br />
           <button
+            onclick="welcome()"
             class="bg-linear-to-r from-orange-500 to-red-500 px-5 py-3 rounded-lg text-white font-bold"
           >
             Explore More
